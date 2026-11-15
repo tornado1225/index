@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI開発・コンサルタント | ポートフォリオ</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+
+        body{
+            font-family: "Yu Gothic", sans-serif;
+            line-height:1.8;
+            color:#333;
+            background:#f5f7fa;
+        }
+
+        header{
+            background:linear-gradient(135deg,#2563eb,#06b6d4);
+            color:white;
+            text-align:center;
+            padding:100px 20px;
+        }
+
+        header h1{
+            font-size:3rem;
+        }
+
+        header p{
+            font-size:1.2rem;
+            margin-top:15px;
+        }
+
+        .container{
+            max-width:1000px;
+            margin:auto;
+            padding:50px 20px;
+        }
+
+        section{
+            background:white;
+            margin-bottom:30px;
+            padding:30px;
+            border-radius:12px;
+            box-shadow:0 3px 8px rgba(0,0,0,0.08);
+        }
+
+        h2{
+            color:#2563eb;
+            margin-bottom:20px;
+        }
+
+        ul{
+            padding-left:20px;
+        }
+
+        .skills{
+            display:flex;
+            flex-wrap:wrap;
+            gap:10px;
+        }
+
+        .skill{
+            background:#dbeafe;
+            color:#1e40af;
+            padding:8px 15px;
+            border-radius:20px;
+        }
+
+        .contact{
+            text-align:center;
+        }
+
+        .button{
+            display:inline-block;
+            margin-top:20px;
+            padding:12px 25px;
+            background:#2563eb;
+            color:white;
+            text-decoration:none;
+            border-radius:8px;
+        }
+
+        .button:hover{
+            background:#1d4ed8;
+        }
+
+        footer{
+            text-align:center;
+            padding:20px;
+            color:#666;
+        }
+
+        @media(max-width:768px){
+            header h1{
+                font-size:2rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>AI開発・コンサルタント</h1>
+    <p>業務効率化・データ分析・機械学習による課題解決を支援</p>
+</header>
+
+<div class="container">
+
+    <section>
+        <h2>プロフィール</h2>
+        <p>
+            AI・データ分析・Python開発を中心に、
+            業務改善やシステム開発を支援しています。
+            機械学習、異常検知、データ可視化、
+            Webアプリ開発まで幅広く対応可能です。
+        </p>
+    </section>
+
+    <section>
+        <h2>対応領域</h2>
+
+        <ul>
+            <li>AI・機械学習システム開発</li>
+            <li>Pythonによる業務自動化</li>
+            <li>データ分析・可視化</li>
+            <li>異常検知システム構築</li>
+            <li>Webアプリ開発（Streamlit）</li>
+            <li>生成AI活用コンサルティング</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>技術スキル</h2>
+
+        <div class="skills">
+            <div class="skill">Python</div>
+            <div class="skill">Pandas</div>
+            <div class="skill">Scikit-learn</div>
+            <div class="skill">Streamlit</div>
+            <div class="skill">SQL</div>
+            <div class="skill">GitHub</div>
+            <div class="skill">Machine Learning</div>
+            <div class="skill">OpenAI API</div>
+        </div>
+    </section>
+
+    <section>
+        <h2>開発実績例</h2>
+
+        <ul>
+            <li>サーバーログ異常検知システム開発</li>
+            <li>クラスタリング分析Webアプリ開発</li>
+            <li>生成AI活用支援・業務改善提案</li>
+            <li>データ分析ダッシュボード構築</li>
+        </ul>
+    </section>
+
+    <section class="contact">
+        <h2>お問い合わせ</h2>
+
+        <p>
+            AI開発・業務自動化・データ分析について
+            お気軽にご相談ください。
+        </p>
+
+        <a class="button" href="mailto:your-email@example.com">
+            お問い合わせ
+        </a>
+    </section>
+
+</div>
+
+<footer>
+    © 2026 AI Consultant Portfolio
+</footer>
+
+</body>
+</html>
